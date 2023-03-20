@@ -1,0 +1,38 @@
+
+.contact
+{
+    position: relative;
+}
+
+.contact::after {
+ 
+    position: absolute;
+    content: "";
+    top: -25%;
+    right: -5%;
+    width: 90%;
+    height:35%;
+    opacity: 1;
+   background-color: #cce0f8;
+    -webkit-transform: rotate(9deg) ;
+	-moz-transform: rotate(9deg);
+	-o-transform: rotate(9deg);
+	-ms-transform: rotate(9deg);
+	transform: rotate(9deg);
+    
+
+}
+.height
+{
+    margin-top: 7rem;
+}
+.height h2
+{
+    color: #398DAD;
+}
+input, textarea {
+
+    background-color :#D5E2ED !important; 
+   resize: none;
+  }
+ 

@@ -1,0 +1,23 @@
+
+.description
+{
+    position: relative;
+}
+
+.description::after {
+
+    position: absolute;
+    content: "";
+    top: -7%;
+    right: -8%;
+    width: 25%;
+    height:115%;
+    opacity: 1;
+   background-color: #cce0f8;
+    -webkit-transform: rotate(-12deg) translateZ(0);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+	transform: rotate(-12deg);
+
+}

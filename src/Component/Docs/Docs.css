@@ -1,0 +1,44 @@
+.section-color {
+    background: #EDF5FDF2 0% 0% no-repeat padding-box;
+    
+    overflow: hidden;
+
+}
+.docs
+{
+    position: relative;
+}
+
+.docs::after {
+
+    position: absolute;
+    content: "";
+    bottom: -20%;
+    left: 0%;
+    width: 100%;
+    height:25%;
+    opacity: 1;
+   background-color: #cce0f8;
+    -webkit-transform: rotate(5deg) translateZ(0);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+
+}.docs::before {
+
+    position: absolute;
+    content: "";
+    top: -2%;
+    left: -12%;
+    width: 25%;
+    height:105%;
+    opacity: 1;
+   background-color: #cce0f8;
+    -webkit-transform: rotate(-20deg) translateZ(0);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+
+}

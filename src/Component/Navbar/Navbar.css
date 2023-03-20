@@ -1,0 +1,20 @@
+nav
+{
+    top: 4%;
+    left: 10%;
+    background-color: #9bbedd;
+   z-index: 10000;
+}
+.wallet-btn
+{
+    color:#1F3A5F;
+    padding: 0.4rem;
+    background-color:#fff;
+    border-radius :0.7rem !important;
+    font-weight: 700;
+}
+.navlink a
+{
+    
+    font-weight: 600;
+}
