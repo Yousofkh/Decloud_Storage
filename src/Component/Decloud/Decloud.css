@@ -1,0 +1,83 @@
+
+.main-style
+{
+    position: relative;
+    
+}
+
+.main-style::after {
+
+    position: absolute;
+    content: "";
+    bottom: -25%;
+    right: -10%;
+    width: 60%;
+    height:40%;
+    opacity: 1;
+   background-color: #cce0f8;
+    -webkit-transform: rotate(-12deg) translateZ(0);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+	transform: rotate(-12deg);
+
+}
+.outer-space
+{
+    padding-top: 5rem;
+}
+.drop-bg
+{
+    color: #398DAD;
+    background-color: #cce0f8;
+}
+.drop-bg:hover
+{
+    background-color: #cce0f8;
+      color: #398DAD;
+}
+.dropdown-toggle
+{
+    color: #398DAD;
+
+}
+.input-color
+{
+    background-color: #FFF  !important;
+}
+.Decloud-Content input
+{
+    padding: 0.5rem;
+    border-radius:20px;
+    font-size: 1.2rem;
+    border: #D5D5D5 solid 1px !important ;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #398DAD !important;
+    opacity: 1; /* Firefox */
+  }
+  .blue-color 
+  {
+    color:#157EFB !important;
+    position: relative;
+  }
+  .blue-color::after
+  {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    height: 2px;
+    width: 25rem;
+    background-color: #398DAD;
+  }
+.blue-color::before
+  {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    height: 2px;
+    width: 25rem;
+    background-color: #398DAD;
+  }

@@ -4,6 +4,9 @@ import LogoImg from"../../images/photo_5794399095987747486_xm.png";
 import "./Navbar.css";
 
 export function Navbar() {
+  
+  
+
   return (
     <>
       <div className="main-nav overflow-hidden ">
@@ -65,7 +68,7 @@ export function Navbar() {
                   <Link
                     className="nav-link active text-capitalize wallet-btn "
                     aria-current="page"
-                    to="https://metamask.io/"
+                    to="/Decloud"
                      traget='_blank'>
                     connect wallet
                   </Link>
