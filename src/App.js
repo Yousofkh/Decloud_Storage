@@ -9,6 +9,7 @@ import Docs from "./Component/Docs/Docs";
 import Contact from "./Component/Contact/Contact";
 import Description from "./Component/Layout/Description/Description";
 import NotFound from "./Component/NotFound/NotFound";
+import Decloud from "./Component/Decloud/Decloud";
 const routers = createBrowserRouter([
   {
     path: "/", element:<Layout/>, children:[
@@ -16,6 +17,7 @@ const routers = createBrowserRouter([
       {path:'Docs',element:<Docs/>},
       {path:'Contact',element:<Contact/>},
       {path:'Howitwork',element:<Description/>},
+      {path:'Decloud',element:<Decloud/>},
       {path:'*',element:<NotFound/>}
     ]
   }
